@@ -1,0 +1,509 @@
+.first{
+    height: 670px;
+    width: 100%;
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.home{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    justify-content: center;
+    gap: 60px;
+    padding-top: 20px;
+}
+.start{
+    font-size: 30px;
+    font-weight: 700;
+   color: yellow;
+   /* background-color: black; */
+}
+.title{
+    display: flex;
+    gap: 15px;
+}
+a{
+    height:fit-content;
+    width: fit-content;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    /* background-color: black; */
+}
+.homebottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    /* justify-content: center; */
+}
+.write{
+    height: 300px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 120px;
+    position: absolute;
+    /* background-color: black; */
+    /* position: relative; */
+}
+.writes{
+    font-size: 85px;
+    font-weight: 700;
+    color: white;
+    padding-left: 120px;
+}
+.box{
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    background-color: sandybrown;
+}
+.pic1{
+    background-image: url(../photos/illustration_1.png.webp);
+    height: 650px;
+    width: 700px;
+    margin-left: 550px;
+    background-color: sandybrown;
+}
+.seen{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    /* background-color: aquamarine; */
+    font-size: 25px;
+    margin-top: 70px;
+}
+.heading{
+    height:150px ;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    color: navy;
+    /* background-color: red; */
+}
+h1{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 100;
+}
+h3{
+    font-size: 35px;
+    font-weight: 300;
+}
+h4{
+    font-size: 20px;
+    width: 90px;
+}
+.logo{
+    height: 60px;
+    width: 130px;
+    display: flex;
+}
+.second{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    position: relative;
+}
+.pic2{
+    background-image: url(../photos/illustration_1.png.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 550px;
+    margin-left: 120px;
+    margin-top: 100px;
+    background-color: sandybrown;
+    position: absolute;
+}
+.one{
+    height: 550px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: royalblue;
+    margin-left: 600px;
+    padding-top: 100px;
+    padding-left: 200px;
+
+}
+.subone{
+    height: 150px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+
+}
+.subtwo{
+    height:80px;
+    width:400px;
+    color: beige;
+    font-size: 20px;
+}
+.far li{
+    color: beige;
+    font-size: 25px;
+}
+.boxtwo{
+    height: 55px;
+    width: 130px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: sandybrown;
+}
+.third{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+.subthird{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+.thirdone{
+   width: 550px;
+}
+.titles{
+    height: 30px;
+    width: 300px;
+    font-size: 40px;
+    color: rebeccapurple;
+    font-weight: 600;
+}
+.para{
+    font-size: 25px;
+    margin-top: 100px;
+}
+.thirdtwo{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 25px;
+}
+.photo{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+}
+.intro{
+    width: 450px;
+font-size: 25px;
+}
+.pic3{
+    background-image: url(../photos/illustration_1.png.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 1000px;
+    margin-right: 90px;
+    background-color: sandybrown;
+}
+.features{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+    gap: 25px;
+    margin-left: 100px;
+}
+.iconsbox{
+    height: 200px;
+    width: 300px;
+    border: 1px solid gray;
+    
+}
+
+/* media query */
+
+
+@media (max-width:768px){
+    .first{
+        height: fit-content;
+        width: 100%;
+    }
+    .home{
+    margin: 0px;
+    justify-content: left;
+    display: flex;
+    }
+   
+    .title{
+        display: none;
+    }
+    .homebottom{
+        height: fit-content;
+        width: fit-content;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .write{
+        height: fit-content;
+        position: relative;
+        padding-bottom:20px;
+    }
+    .writes{
+        font-size: 50px;
+        width: 650px;
+        font-weight: 600;
+        padding-left: 0px;
+    }
+    .box{
+        height: 55px;
+        width: 150px;
+    }
+    .pic1{
+        height: 500px;
+        width: 500px;
+        margin-left: 100px;
+        background-size: contain;
+       background-repeat: no-repeat;
+    }
+    .seen{
+        height: 50px;
+        padding: 0px;
+
+    }
+    .heading{
+        gap: 35px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .second{
+        height:fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+    .pic2{
+        height: 450px;
+        width: 550px;
+        margin-top: 60px;
+        margin-left: 10px;
+        position: absolute;
+    }
+    .one{
+        height: 850px;
+        width: 100%;
+        margin: 0px;
+        padding-left: 5px;
+        justify-content: flex-end;
+    }
+    .third{
+        height:800px;
+        width: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+    .para{
+        font-size: 20px;
+    }
+    .thirdtwo{
+        height: 350px;
+        gap: 25px;
+        margin: 0px;
+    }
+
+    .intro{
+        width: fit-content;
+        font-size: 20px;
+    }
+    .pic3{
+    height: 600px;
+    width: 500px;
+    margin-right: 0px;
+    margin-left: 10px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top :30px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:480px){
+    .first{
+        /* background-color: red; */
+        height: fit-content;
+        width: 400px;
+    }
+    .home{
+        height: fit-content;
+        width: fit-content;
+        padding-top: 10px;
+        gap: 35px;
+        justify-content: left;
+    }
+    .start{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .title{
+        display: none;
+        gap: 4px;
+    }
+    a{
+        height: fit-content;
+        width: 100%;
+        font-size: 10px;
+    }
+    .homebottom{
+        height: fit-content;
+        width: fit-content;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .write{
+        height: fit-content;
+        position: relative;
+        padding-bottom:20px;
+        /* margin-top: px50px; */
+    }
+    .writes{
+        font-size: 30px;
+        width: 250px;
+        font-weight: 400;
+        padding-left: 0px;
+    }
+    .box{
+        height: 35px;
+        width: 100px;
+        margin-left: 0px;
+    }
+    .pic1{
+        height: 400px;
+        width: 400px;
+        margin-left: 0px;
+        background-size: contain;
+       background-repeat: no-repeat;
+    }
+    .seen{
+        height: 60px;
+        padding: 0px;
+
+    }
+    .heading{
+        gap: 25px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .second{
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .pic2{
+        height: 400px;
+        width: 450px;
+        margin-top: 60px;
+        margin-left: 10px;
+        position: absolute;
+    }
+    .one{
+        height: 550px;
+        width: 500px;
+        margin: 0px;
+        padding-left: 5px;
+        padding-top: 500px;
+    }
+    .third{
+        height:800px;
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+    }
+    .subthird{
+        /* margin: 0px; */
+    }
+    .titles{}
+    .para{
+        font-size: 17px;
+    }
+    .thirdtwo{
+        height: 300px;
+        gap: 25px;
+    }
+    .photo{
+
+    }
+    .intro{
+        width: fit-content;
+        font-size: 17px;
+    }
+    .pic3{
+    height: 400px;
+    width: 400px;
+    margin-right: 0px;
+    margin-left: 10px;
+    }
+    .features{
+
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top :30px;
+        margin-left: 0px;
+    }
+}
+
+    
+
+
+
+
+
+
+
